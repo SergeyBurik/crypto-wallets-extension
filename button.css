@@ -1,0 +1,46 @@
+body {
+  height: 500px;
+  width: 350px;
+}
+
+#newWallet {
+  padding: 5px;
+  border: 1px solid #b2b2b2;
+  border-radius: 5px;
+}
+
+.card-header {
+  overflow:hidden; 
+  white-space:nowrap; 
+  text-overflow: ellipsis;
+}
+
+.walletAddressSpan {
+  background-color: #e5e5e5;
+  border-radius: 5px;
+  padding: 2px;
+  padding-left: 4px;
+  width: 100%;
+}
+
+.walletAddressSpan:hover {
+  background-color: #ececec;
+  cursor: pointer;
+}
+
+.priceUp {
+  color: green;
+}
+
+.priceDown {
+  color: red;
+}
+
+.coinLogo {
+  width: 30px;
+  height: 30px;
+}
+
+.network {
+  padding-bottom: 0!important;
+}

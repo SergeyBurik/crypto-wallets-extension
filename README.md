@@ -17,7 +17,7 @@ Extension is still in the process of development. Thus, to install it,
 * Total - converting total ETH values to USD
 
 ## How it works
-Extension components are created with web development technologies: HTML, CSS, and JavaScript. Google Chrome API provides interface for interacting with the user's browser instance. Chrome.Storage is an API to store, retrieve, and track changes to user data.
+Extension is based HTML/CSS and JavaScript. Google Chrome API provides interface for interacting with the user's browser instance. Chrome.Storage is an API to store, retrieve, and track changes to user data.
 
 ### Screenshot
 ![screenshot](https://user-images.githubusercontent.com/40773987/152184957-5c4029cd-e4cf-4631-a1ac-c667f2b24d10.png)

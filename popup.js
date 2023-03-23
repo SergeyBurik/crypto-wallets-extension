@@ -1,4 +1,4 @@
-let ethAPIProvider = "https://api.ethplorer.io/"
+let ethAPIProvider = "https://api.ethplorer.io/";
 
 
 $("#newWalletBtn").click(() => {
@@ -18,7 +18,7 @@ function showWalletsAdresses() {
       // wallets: "w:t,w:t" - "w" - wallet address, "t" - wallet type
       console.log(wallets.cw_wallets);
       console.log(wallets.cw_wallets.split(","));
-      let walletsSplit = wallets.cw_wallets.split(",")
+      let walletsSplit = wallets.cw_wallets.split(",");
       for (let wallet of walletsSplit) {
         if (wallet == "") {
           continue;
